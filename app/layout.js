@@ -17,6 +17,6 @@ export default function RootLayout({ children }) {
   );
 }
 
-export const Layout = ({ children }) => {
-  return <div className="Layout">{children}</div>;
-};
+// export const Layout = ({ children }) => {
+//   return <div className="Layout">{children}</div>;
+// };
