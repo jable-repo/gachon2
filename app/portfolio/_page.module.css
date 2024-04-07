@@ -1,0 +1,253 @@
+/*포트폴리오 페이지*/
+
+.page_body {
+    position: static;
+    background-color: rgb(181, 160, 135);
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    position: static;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    /* width: 1200px;
+    height: 50px; */
+}
+  
+.topbar_button_left {
+    position: static;
+    padding: 10px;
+    font-size: 15px;
+    left: 20px;
+}
+
+.topbar_button_right {
+    position: fixed;
+    background: white;
+    padding: 5px;
+    z-index: 9999;
+    margin-top: 5px;
+    border-radius: 50%;
+    right: 20px;
+    cursor: pointer;
+}
+
+.topbar_button_right_bg {
+    display: grid;
+    padding: 5px;
+}
+
+.home_button {
+    padding: 2px;
+    margin-right: 10px;
+}
+
+  
+.page_head {
+    margin-bottom: 24px;
+    font-size: 50px;
+    color: rgb(240, 240, 240);
+    background-color: rgb(125, 125, 125);
+    text-align: center;
+    padding: 20px;
+}
+  
+/* .privacy {
+    margin: 20px auto;
+    width: 200px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+} */
+  
+.data {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: green;
+    display: flex;
+    align-items: left;
+}
+
+.data1 {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(206, 195, 175);
+    display: flex;
+    align-items: left;
+}
+  
+/* .profile_data {
+    overflow: hidden;  .privacy 참조용
+    position: relative;
+    width: 100%;
+    padding: 0 0 20px 40px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+} */
+
+.my_image_background {
+    display: grid;
+    padding: 10px;
+    background-color: black;
+}
+  
+.my_image_setting {
+    display: grid;
+    padding: 10px;
+    background-color: black;
+}
+
+.image_info_gap {
+    margin-left: 20px;
+    margin-right: 5px;
+    width: 3px;
+    height: 170px;
+    background-color: black;
+}
+/*내 개인 정보*/
+.my_info {
+    font-size: 30px;
+    position: relative;
+    margin-left: 10px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.my_details {
+    font-size: 18px;
+    letter-spacing: 3px;
+    padding: 5px;
+    transform: translateY(8px);
+    font-weight: normal;
+}
+
+.my_details2 {
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 35px;
+    padding: 5px;
+    transform: translateY(8px);
+    font-weight: normal;
+}
+/*나에대해*/
+.about_me {
+    font-size: 30px;
+    position: relative;
+    margin-left: 190px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.about_me_detail1 {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 5px;
+    font-weight: normal;
+}
+.about_me_detail2 {
+    font-size: 15px;
+    line-height: 25px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/*교육*/
+.my_education {
+    font-size: 30px;
+    position: relative;
+    margin-left: 190px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.education {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+.education_adress {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/*자격증*/
+.my_certificate {
+    font-size: 30px;
+    position: relative;
+    margin-left: 190px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.certificate_title {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+.certificate_info {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/*커리어*/
+.my_career {
+    font-size: 30px;
+    position: relative;
+    margin-left: 190px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.career_title {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+.career_info {
+    font-size: 15px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+
+
+/*컴퍼넌트 참조*/
+.my_skill {
+    font-size: 30px;
+    position: relative;
+    margin-left: 190px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.skill_title {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 5px;
+    font-weight: normal;
+}
